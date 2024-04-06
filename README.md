@@ -6,7 +6,6 @@
 
 <p align="center">
 <img src="main_fig.png" width="50%" height="50%" alt=""></img>
-<\p>
 
-We are plannning to upload training/evaluation & dataset construction code in the near future. (It's been delayed due to some issues..) 
+We are plannning to upload training/evaluation & dataset construction code in the near future. (It's been delayed due to some issues..) <br>
 The dataset is released below: 
