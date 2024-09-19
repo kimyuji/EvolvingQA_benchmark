@@ -1,0 +1,23 @@
+{
+    "input_length" : 300,
+    "output_length" : 25,
+    "num_train_epochs" : 1,
+    "dataset" : "0506",
+    "dataset_version" : "full",
+    "train_batch_size" : 16,
+    "learning_rate" : 1e-5,
+    "model" : "google/t5-large-ssm",
+    "method": "baseline",
+    "gradient_accumulation_steps" : 1,
+    "ngpu" : 1,
+    "num_workers" : 10,
+    "CUDA_VISIBLE_DEVICES" : "0",
+    "check_validation" : true,
+    "wandb_log": false,
+    "wandb_project": "finetune_dpr",
+    "wandb_run_name" : "finetune_dpr",
+    "mode" : "dpr",
+    "check_grad": false,
+    "checkpoint_path" : "./output_t5_qa/t5/dpr/last.ckpt",
+    "output_dir" : "output_t5_qa/dpr_06/new/"
+}

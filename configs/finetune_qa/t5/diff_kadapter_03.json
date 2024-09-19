@@ -1,0 +1,22 @@
+{
+    "input_length" : 50,
+    "output_length" : 25,
+    "num_train_epochs" : 1,
+    "dataset" : "0203",
+    "dataset_version" : "full",
+    "train_batch_size" : 32,
+    "learning_rate" : 1e-5,
+    "model" : "google/t5-large-ssm",
+    "method": "kadapter",
+    "gradient_accumulation_steps" : 1,
+    "ngpu" : 1,
+    "num_workers" : 40,
+    "CUDA_VISIBLE_DEVICES" : "2",
+    "check_validation" : false,
+    "wandb_log": false,
+    "wandb_project": "finetune_qa_0203",
+    "wandb_run_name" : "finetune_qa_0203",
+    "mode" : "finetune_qa",
+    "checkpoint_path" : "output_t5/diff_kadapter_03/last.ckpt",
+    "output_dir" : "output_qa/t5/diff_kadapter_03/new/"
+}

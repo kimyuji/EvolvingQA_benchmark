@@ -1,0 +1,22 @@
+{
+    "input_length" : 50,
+    "output_length" : 25,
+    "num_train_epochs" : 1,
+    "dataset" : "0203",
+    "dataset_version" : "full",
+    "train_batch_size" : 64,
+    "learning_rate" : 1e-5,
+    "model" : "google/t5-large-ssm",
+    "method": "baseline",
+    "gradient_accumulation_steps" : 1,
+    "ngpu" :1,
+    "num_workers" : 40,
+    "CUDA_VISIBLE_DEVICES" : "1",
+    "check_validation" : false,
+    "wandb_log": false,
+    "wandb_project": "finetune_qa_initial",
+    "wandb_run_name" : "finetune_qa_initial",
+    "mode" : "finetune_qa",
+    "checkpoint_path" : "./outputs_t5/pretrain/epoch=7-step=204240.ckpt",
+    "output_dir" : "output_t5_qa/t5/initial/new"
+}

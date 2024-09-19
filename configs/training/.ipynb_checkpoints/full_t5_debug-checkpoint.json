@@ -1,0 +1,22 @@
+{
+    "input_length" : 512,
+    "output_length" : 400,
+    "num_train_epochs" : 3,
+    "output_dir" : "outputs/test",
+    "dataset" : "pretrain_test.csv",
+    "dataset_version" : "full",
+    "train_batch_size" : 6,
+    "gradient_accumulation_steps": 1,
+    "learning_rate" : 1e-3,
+    "model" : "google/t5-small-ssm",
+    "method": "baseline",
+    "ngpu" : 4,
+    "num_workers" : 40,
+    "resume_from_checkpoint" : null,
+    "fp16" : false,
+    "CUDA_VISIBLE_DEVICES" : "0",
+    "mode" : "pretrain_brute",
+    "use_lr_scheduling" : false,
+    "check_validation" : false,
+    "checkpoint_path" : ""
+}  

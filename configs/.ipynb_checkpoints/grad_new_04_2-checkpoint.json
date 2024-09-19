@@ -1,0 +1,23 @@
+{
+    "input_length" : 50,
+    "output_length" : 25,
+    "num_train_epochs" : 1,
+    "dataset" : "0304",
+    "dataset_version" : "full",
+    "train_batch_size" : 1,
+    "learning_rate" : 0.0,
+    "model" : "google/t5-large-ssm",
+    "method": "baseline",
+    "gradient_accumulation_steps" : 1,
+    "ngpu" : 1,
+    "num_workers" : 40,
+    "CUDA_VISIBLE_DEVICES" : "0",
+    "check_grad" : true,
+    "check_validation": false,
+    "wandb_log": false,
+    "wandb_project": "finetune_qa_0304",
+    "wandb_run_name" : "finetune_qa_0304",
+    "mode" : "check_grad_new_2",
+    "checkpoint_path" : "output_t5/diff_03/last.ckpt",
+    "output_dir" : "grad/new/"
+}

@@ -1,0 +1,16 @@
+{
+    "input_length" : 512,
+    "output_length" : 512,
+    "dataset" : "wikipedia_0607_gpt2",
+    "dataset_version" : "full",
+    "train_batch_size" : 8,
+    "model" : "gpt2-large",
+    "method": "baseline",
+    "ngpu" : 1,
+    "num_workers" : 40,
+    "CUDA_VISIBLE_DEVICES" : "0,1",
+    "check_validation" : true,
+    "mode" : "evaluate_ppl_corpus",
+    "checkpoint_path" : "outputs/diff_07_/last.ckpt",
+    "output_log": "log/diff/0607_ppl_subset.csv"
+}

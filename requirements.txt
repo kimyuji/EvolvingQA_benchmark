@@ -1,0 +1,13 @@
+pytorch-lightning==1.6.0
+nltk
+pytest
+wandb
+deepspeed
+rouge
+openai
+backoff
+tiktoken
+sentencepiece
+pandas
+datasets
+transformers==4.28.0
