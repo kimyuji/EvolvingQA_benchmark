@@ -7,7 +7,7 @@
 <p align="center">
 <img src="main_fig.png" width="50%" height="50%" alt=""></img>
 
-We are plannning to upload training/evaluation & dataset construction code in the near future. <br>
+The EvolvingQ dataset and codes are released. 
 Note that the released version of EvolvingQA is constructed with additional filtering processes (e.g., changing order of options in multiple-choice prompts), based on the feedback from reviewers. <br>
 The dataset is released in [EvolvingQA benchmark](https://www.dropbox.com/scl/fo/40omxt6ooi4k02sg9acrp/h?rlkey=8b9y0kq33tl0p3qou24l1yx2q&dl=0).
 
